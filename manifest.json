@@ -1,10 +1,10 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Yandex Music Non Stop",
 	"description": "Яндекс музыка без остановки, бесплатно, без смс и регистрации...",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"icons": {"128": "icon_128.png"},
-	"browser_action": {
+	"action": {
 		"default_icon": "icon_128.png",
 		"default_popup": "popup.html"
 	},

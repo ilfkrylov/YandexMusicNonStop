@@ -10,5 +10,15 @@ function skipOffer() {
 			console.log('to infinity and beyond');
 		}
 	}
+	
+	var paymentPlusCloseBtn = document.querySelector(".payment-plus__header-close")
+	if (paymentPlusCloseBtn != null) {
+		paymentPlusCloseBtn.click();
+	}
+	
+	var payPromoCloseBtn = document.querySelector(".pay-promo-close-btn")
+	if (payPromoCloseBtn != null) {
+		paymentPlusCloseBtn.click();
+	}
 }
 setInterval(skipOffer, 5000);
